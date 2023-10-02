@@ -1,0 +1,10 @@
+[Unit]
+Description=RestreamApp
+
+[Service]
+User=root
+ExecStart=/usr/local/linuxapp/bin/MqttClient
+Restart=always
+
+[Install]
+WantedBy=multi-user.target

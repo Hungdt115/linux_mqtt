@@ -1,0 +1,32 @@
+{
+    "config": {
+        "cloud": {
+            "mqtt_port": 8884,
+            "mqtt_server": "https://develop.hcmtech.vn",
+            "http_port": 443,
+            "http_server": "https://develop.hcmtech.vn"
+        },
+        "device": {
+            "type_device": "radio",
+            "environment": "production",
+            "active": "true",
+            "connection_retry": "0",
+            "imei": "fe80::5e5c:abd4:6fc4:ce89",
+            "fm_freq": "94.0",
+            "net_card_name": "",
+            "permit_overide_mac": "false",
+            "secret_key": "",
+            "token": "",
+            "network_device": ["eth0", "wlan0", "ppp0"],
+            "volume": "75",
+            "netspeed_threshold": 5000,
+            "limit_download": 50
+        },
+        "device_model": {
+            "fw_version": "LinuxOS 2.0",
+            "hw_version": "2.0",
+            "model": "Linux",
+            "serial": ""
+        }
+    }
+}

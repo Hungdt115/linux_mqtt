@@ -1,0 +1,12 @@
+[Unit]
+Description=sshapp
+After=4g_setup.service
+
+[Service]
+User=root
+ExecStart=/script/ssh_app.sh
+Restart=always
+StartLimitInterval=10
+
+[Install]
+WantedBy=multi-user.target
